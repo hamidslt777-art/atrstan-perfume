@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>محصولات | عطرستان</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">عطرستان</div>
+
+  <nav>
+    <a href="index.html">خانه</a>
+    <a href="products.html">محصولات</a>
+    <a href="cart.html">محصولات من</a>
+    <a href="about.html">درباره ما</a>
+    <a href="contact.html">تماس با ما</a>
+  </nav>
+
+  <a class="cart-button" href="cart.html">
+    🛒 سبد خرید
+    <span class="cart-count">۰</span>
+  </a>
+</header>
+
+<main class="page-box">
+  <a class="back-link" href="index.html">← بازگشت به خانه</a>
+
+  <div class="title">
+    <h2>همه محصولات</h2>
+    <p>عطر مورد نظر خود را انتخاب کنید.</p>
+  </div>
+
+  <div class="tools">
+    <input id="searchInput"
+           type="text"
+           placeholder="جست‌وجوی نام عطر">
+
+    <select id="categorySelect">
+      <option value="all">همه دسته‌بندی‌ها</option>
+      <option value="زنانه">زنانه</option>
+      <option value="مردانه">مردانه</option>
+      <option value="یونیسکس">یونیسکس</option>
+    </select>
+  </div>
+
+  <div class="products" id="productList"></div>
+</main>
+
+<footer>
+  <p>فروشگاه عطرستان</p>
+  <p>تلفن تماس: ۰۲۱-۱۲۳۴۵۶۷۸</p>
+  <p>© تمامی حقوق محفوظ است.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
